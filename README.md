@@ -11,6 +11,8 @@ go run main.go -f1 ./data/InputA.xlsx -f2 ./data/InputB.xlsx
 
 # Build, "publish" and execute
 go build
+# env GOOS=linux GOARCH=amd64 go build -o xd_linux_amd64
+# env GOOS=windows GOARCH=amd64 go build -o xd_windows_amd64.exe
 mv xd /usr/bin
 xd -f1 ./data/InputA.xlsx -f2 ./data/InputB.xlsx
 
