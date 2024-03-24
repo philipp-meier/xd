@@ -1,7 +1,10 @@
 # xd
+
+[![MIT License](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/philipp-meier/xd/blob/main/LICENSE)
+
 xd is a simple Excel (.**x**lsx) **d**iff tool for texts.  
 
-## Run
+## Usage
 ```bash
 # Run main.go with parameters
 go run main.go -f1 ./data/InputA.xlsx -f2 ./data/InputB.xlsx
